@@ -53,6 +53,36 @@
     .add-to-cart-btn:hover {
       background-color: #333;
     }
+
+   
+
+  .features {
+    background-color: #f8f9fa;
+  }
+  .feature-icon svg {
+    color: #333;
+  }
+  .feature-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #333;
+  }
+  .feature-text {
+    color: #666;
+    font-size: 0.9rem;
+    max-width: 250px;
+    margin: 0 auto;
+  }
+  .feature-item {
+    padding: 20px 15px;
+    margin-bottom: 15px;
+  }
+  @media (max-width: 767px) {
+    .feature-item {
+      margin-bottom: 30px;
+    }
+  }
+
   </style>
 </head>
 
@@ -382,50 +412,58 @@
     </div>
   </div>
 </section>
-
-  <!-- Features Section -->
-  <section class="features py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3 text-center" data-aos="fade-in" data-aos-delay="0">
-          <div class="py-5">
-            <svg width="38" height="38" viewBox="0 0 24 24">
-              <use xlink:href="#calendar"></use>
-            </svg>
-            <h4 class="element-title text-capitalize my-3">Envios</h4>
-            <p>compra de manera segura y desde la comodidad de tu casa, nosotros aseguramos que tu compra especial llegara a la comididad de tu hogar .</p>
-          </div>
+<!-- Features Section -->
+<section class="features py-5 bg-light">
+  <div class="container">
+    <div class="row">
+      <!-- Feature 1 -->
+      <div class="col-md-3 col-6 text-center feature-item" data-aos="fade-up">
+        <div class="feature-icon mb-3">
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+          </svg>
         </div>
-        <div class="col-md-3 text-center" data-aos="fade-in" data-aos-delay="300">
-          <div class="py-5">
-            <svg width="38" height="38" viewBox="0 0 24 24">
-              <use xlink:href="#shopping-bag"></use>
-            </svg>
-            <h4 class="element-title text-capitalize my-3">Pick up in store</h4>
-            <p>Recoge con seguridad y al momento que deseas tu compra en tienda </p>
-          </div>
+        <h4 class="feature-title mb-2">Reserva una cita</h4>
+        <p class="feature-text">Puedes reservar una cita para tener asesoria en lo que deseas comprar .</p>
+      </div>
+      
+      <!-- Feature 2 -->
+      <div class="col-md-3 col-6 text-center feature-item" data-aos="fade-up" data-aos-delay="100">
+        <div class="feature-icon mb-3">
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/>
+          </svg>
         </div>
-        <div class="col-md-3 text-center" data-aos="fade-in" data-aos-delay="600">
-          <div class="py-5">
-            <svg width="38" height="38" viewBox="0 0 24 24">
-              <use xlink:href="#gift"></use>
-            </svg>
-            <h4 class="element-title text-capitalize my-3">Special packaging</h4>
-            <p>No te pierdas los paquetes especiales y de coleccion que tenemos unicamente para ti </p>
-          </div>
+        <h4 class="feature-title mb-2">Pick Up In Store</h4>
+        <p class="feature-text">recoge de manera segura en tienda</p>
+      </div>
+      
+      <!-- Feature 3 -->
+      <div class="col-md-3 col-6 text-center feature-item" data-aos="fade-up" data-aos-delay="200">
+        <div class="feature-icon mb-3">
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M20 12v10H4V12M12 2v20M2 7h20M12 7l4-5 4 5M12 7l-4-5-4 5"/>
+          </svg>
         </div>
-        <div class="col-md-3 text-center" data-aos="fade-in" data-aos-delay="900">
-          <div class="py-5">
-            <svg width="38" height="38" viewBox="0 0 24 24">
-              <use xlink:href="#arrow-cycle"></use>
-            </svg>
-            <h4 class="element-title text-capitalize my-3">free global returns</h4>
-           
-          </div>
+        <h4 class="feature-title mb-2">Special Packaging</h4>
+        <p class="feature-text">Tenemos empaques especiales, solo para ti .</p>
+      </div>
+      
+      <!-- Feature 4 -->
+      <div class="col-md-3 col-6 text-center feature-item" data-aos="fade-up" data-aos-delay="300">
+        <div class="feature-icon mb-3">
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"/>
+          </svg>
         </div>
+        <h4 class="feature-title mb-2">Free Global Returns</h4>
+        <p class="feature-text">Si no te gusta, lo puedes devolver con la confianza del mundo.</p>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
+
 
   <!-- Categories Section -->
   <section class="categories overflow-hidden">
