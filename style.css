@@ -1918,3 +1918,63 @@ a.btn-link.text-light:after {
 #checkoutBtn {
   margin-bottom: 12px; /* Espacio adicional bajo el botón principal */
 }
+
+/*PAYPAAAAL*/
+/* Estilos para el resumen y métodos de pago */
+.order-summary {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.payment-methods-container {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Ajustes específicos para los botones de PayPal */
+#paypal-button-container {
+  width: 100%;
+  min-height: 45px;
+  margin: 10px 0;
+}
+
+.paypal-button {
+  width: 100% !important;
+  border-radius: 20px !important;
+}
+
+/* Ajustes para los botones personalizados */
+.btn-payment {
+  width: 100%;
+  padding: 12px;
+  margin: 5px 0;
+  border-radius: 25px;
+  font-weight: 500;
+}
+
+.payment-methods-container {
+  background: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+#checkoutBtn, #backToSummary {
+  transition: all 0.3s ease;
+}
+
+#checkoutBtn:hover, #backToSummary:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+.paypal-button-container {
+  display: flex;
+  justify-content: center;
+}
